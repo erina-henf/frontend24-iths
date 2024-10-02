@@ -1,0 +1,32 @@
+body {
+  background-color: gray;
+}
+
+main {
+  margin: auto;
+  width: 800px;
+  height: 400px;
+  display: flex;
+  border: 1px solid black;
+}
+
+.one {
+  background-color: rebeccapurple;
+  flex-grow: 1;
+} .two {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 3;
+} .three {
+  background-color: red;
+  flex-grow: 1;
+} #four {
+  background-color: green;
+  flex-grow: 1;
+} #five {
+  background-color: yellow;
+  flex-grow: 2;
+} #six {
+  background-color: white;
+  flex-grow: 1;
+}

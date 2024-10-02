@@ -1,0 +1,24 @@
+Vecka	Klass	Ansvarig	Veckodag	Tid		Beskrivning
+34	FEU23	Richard		Onsdag		09:00-12:00	Presentation av HTML/CSS, kursplan 
+34	FEU23	Richard		Onsdag		13:00-15:30	Modul: Filer/mappar; Modul: Kom igång med Code  samt Live server 
+35	FEU23	Richard		Tisdag		09:00-12:00	Modul: Filer/mappar; Modul: Kom igång med Code  samt Live server  
+35	FEU23	Richard		Tisdag		13:00-15:30	Modul: Enklare webbdokument; Modul: Rubriker, listor och länkar 
+35	FEU23	Richard		Onsdag		09:00-12:00	Modul: Grundläggande CSS; Modul: Färger; Modul: Typsnitt 
+35	FEU23	Richard		Onsdag		13:00-15:30	Modul: Blockelement, inline-element, div & span; Modul: class & id 
+35	FEU23	Magnus		Fredag		Heldag		Handledning (På distans, boka tid med Magnus)
+36	FEU23	Richard		Tisdag		09:00-12:00	Modul: Avstånd; Modul: Bakgrunder; Modul: margin och padding
+36	FEU23	Richard		Tisdag		13:00-15:30	Modul: Flexbox; Workshop: Flexbox; Handledning
+36	FEU23	Richard		Onsdag		09:00-12:00	Live-kodning; Modul: Mer om väljare; Workshop: Mer om väljare
+36	FEU23	Richard		Onsdag		13:00-15:30	Egenstudier, ta igen, fördjupa sig, arbeta med Avancera
+36	FEU23	Magnus		Fredag		Heldag		Handledning (På distans)	
+37	FEU23	Richard		Tisdag		09:00-12:00	Modul: Media queries; Live-kodning; Handledning 
+37	FEU23	Richard		Tisdag		13:00-15:30	Modul: Grid Layout; Live-kodning; Handledning 
+
+Laboration 2: Projekt								
+Vecka	Klass	Ansvarig	Veckodag	Tid		Beskrivning		
+37	FEU23	Richard		Onsdag		09:00-12:00	Info om Lab 2: Individuellt Projekt; Modul: Live Share; 
+37	FEU23	Richard		Onsdag		13:00-15:30	Projekthandledning		
+37	FEU23	Magnus		Fredag		Heldag		Projekthandledning/Handledning
+38	FEU23	Richard		Tisdag		09:00-12:00	Modul: Sökmotoroptimering, Sass, Bootstrap
+38	FEU23	Richard		Tisdag		13:00-15:30	Projekthandledning		
+38	FEU23	Richard		Onsdag		Heldag		Redovisningar, Avslutas med fika

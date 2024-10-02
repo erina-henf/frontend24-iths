@@ -1,0 +1,18 @@
+/* Gör så att rutornas bredd är exakt en tredjedel av uttrycket “(100% - 50px)”. Använd division (/).
+
+Använd calc-funktionen från CSS och en class selector. calc-funktionen ska endast användas en gång.
+
+Parenteserna behövs runt subtraktionen eftersom division är “starkare” än subtraktion.
+
+Resultatet ska se ut så här: */
+
+.column {
+  width: calc((100% - 50px)/3);
+}
+body {
+  background-image: url("../media/test.png");
+  background-attachment: fixed;
+}
+main {
+  width: 20%;
+}

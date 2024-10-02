@@ -1,0 +1,13 @@
+/* Bakgrundsfärgen ska vara #ba9b7e (samma som i de första tre uppgifterna).
+Bakgrundsbilden ska vara fox@800px.jpeg (inte fox@150px.jpeg).
+Bakgrundsbilden ska täcka hela elementet och delar av bilden som inte får plats ska klippas bort (använd background-size för detta).
+Bakgrundsbilden ska inte röra sig när användaren scrollar.
+Bakgrundsbilden ska vara centrerad, både horisontellt och vertikalt, i att att mitten av bilden ska vara placerad i mitten på elementet. */
+
+body {
+  background-color: #ba9b7e;
+  background-image: url("media/fox@800px.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}

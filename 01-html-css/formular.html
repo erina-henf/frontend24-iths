@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="utf-8">
+    <title>Enradstextfält</title>
+    <meta content="initial-scale=1, width=device-width" name="viewport">
+  </head>
+  <body>
+    <!-- form -->
+    <form action="https://www.example.com/" method="get">
+      <input name="user-name" placeholder="User name">
+      <textarea name="message" rows="4" cols="40" placeholder="Message"></textarea>
+      <button><u>Send</u></button>
+    </form>
+    <!-- labels -->
+     <label>
+        Förnamn:
+        <input name="first-name" placeholder="förnamn" type="text">
+     </label>
+     <!-- labels: explicit association. -->
+     <label for="last-name">Efternamn:</label>
+     <input id="last-name" placeholder="skriv efternamn här" type="text"> <br> <br>
+
+     <!-- gruppering av formulärkomponenter -->
+     <fieldset>
+        <legend>rubrik förmiddag</legend>
+          <label for="fm">förmiddag</label>
+          <input type="text" name="" id="fm" placeholder="skriv här">
+     </fieldset>
+     <fieldset>
+      <legend>rubrik morgon</legend>
+          <label for="morn">morgon</label>
+          <input type="text" name="" id="morn" placeholder="skriv här">
+     </fieldset>
+     <fieldset>
+      <legend>rubrik kväll</legend>
+          <label for="evenin">kväll</label>
+          <input type="text" name="" id="evenin" placeholder="skriv här">
+     </fieldset>
+     
+    <fieldset>
+      <legend>checkboxes</legend>
+      <label for="fm">förmiddag</label>
+      <input checked name="pre" id="fm" type="checkbox">
+      <label for="em">eftermiddag</label>
+      <input name="after" id="em" type="checkbox">
+    </fieldset>
+
+    <fieldset>
+      <legend>radiobuttons</legend>
+      <label for="fm-radio">förmiddag radio</label>
+      <input name="samma" id="fm-radio" type="radio" value="1">
+      <label for="em-radio">eftermiddag radio</label>
+      <input name="samma" id="em-radio" type="radio" value="2">
+      <label for="a-radio">eftermiddag radio</label>
+      <input name="samma" id="a-radio" type="radio" value="3">
+    </fieldset>
+
+    <fieldset>
+      <legend>rullgardins meny</legend>
+      <label for="test"> explicit association </label>
+      <select id="test" name="rull">
+        <option value=""> text 1 </option>
+        <option value=""> text 2 </option>
+        <option selected value=""> text 3 </option>
+      </select>
+    </fieldset>
+  </body>
+</html>

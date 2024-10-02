@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <span style="font-size: 2em;">Dubbel storlek (höjd)</span>
+  <br>
+  <span>Orginalstorlek</span>
+  <br><br>
+
+  <!--     em - relativt avstånd som utgår fr föräldern      -->
+
+  Som vanligt (root) <!-- 100% teckenstorlek -->
+    <div style="font-size: .75em;">
+      Lite mindre <!-- 75% teckenstorlek -->
+      <div style="font-size: 1em;">
+      Som vanligt igen <!-- 100% teckenstorlek -->
+    </div></div>
+  <br>
+  <br>
+
+  <!--     rem - relativt avstånd som utgår fr root      -->
+  
+  Som vanligt (root)
+    <div style="font-size: 2rem;">
+      font-size: 2rem; - text med dubbel (200%) förstoring.
+      <div style="font-size: 1rem;">
+        font-size: 1rem; - text med samma storlek som root (100%)
+      </div>
+    </div>
+
+
+</body>
+</html>
