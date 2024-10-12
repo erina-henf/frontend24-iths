@@ -69,6 +69,6 @@ async function deleteCity(id) {
   }
 }
 
-//när sidan laddas ska hämta och visa städer
+// när sidan laddas ska hämta och visa städer
 // koden enedanför kommer köras när hela dokumentet har laddats
 window.addEventListener('DOMContentLoaded', fetchCities);
